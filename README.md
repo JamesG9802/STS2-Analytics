@@ -1,10 +1,13 @@
 This is a mod for Slay the Spire 2, a roguelike cardbuilder by [Mega Crit Games](https://www.megacrit.com/).
 
-It demonstrates a basic implementation of a mod to augment the in-game UI to provide more information. In this case, cards can now show relevant statistics when presented.
+It demonstrates a basic implementation of a mod to augment the in-game UI to provide more information. In this case, cards can now show relevant statistics when presented:
+- The number of runs since you last picked a card.
+- How often you picked a card.
+- How often you win when picking a card.
 
 ![A screnshot from the game with statistics over card rewards.](repo/example.png)
 
-Note: I don't know Godot/the modified engine well, so there are some ~slight~ issues with refreshing the UI. Hopefully, this is a good starter point to iterate upon,
+Note: I don't know Godot/the modified engine well, so there are some ~slight~ issues with refreshing the UI. Hopefully, this is a good starter point to iterate upon.
 
 # Installation
 
@@ -43,4 +46,3 @@ This project is based on https://lamali292.github.io/sts2_modding_guide/, a modd
 
 If you are using this repository as a base, note that this Visual Studio Solution has an additional configuration called "DLLOnly" which skips the Godot packing and just builds the *.dll file(s).
 - This is useful if you are not injecting assets (besides the initial manifest and configs).
-
