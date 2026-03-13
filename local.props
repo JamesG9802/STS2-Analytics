@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <!-- Paths -->
+    <STS2GamePath>C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2</STS2GamePath>
+    <GodotExePath>C:\Users\james\Home\Godot_v4.5.1-stable_mono_win64\Godot_v4.5.1-stable_mono_win64.exe</GodotExePath>
+    
+    <!-- Mod Metadata -->
+    <ModName>STS2-Analytics</ModName>
+    <ModDisplayName>Slay the Spire 2 Analytics</ModDisplayName>
+    <ModAuthor>Kosmic Sand Lava</ModAuthor>
+    <ModVersion>1.0.0</ModVersion>
+  </PropertyGroup>
+</Project>
